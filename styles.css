@@ -1,0 +1,74 @@
+body {
+    margin: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+}
+
+.avatar {
+    width: 40%;
+    line-height: auto;
+    padding: 15px;
+    border-radius: 30px;
+}
+
+.stars {
+    width: 70px;
+    height: 70px;
+}
+
+.card {
+    width: 450px;
+    margin: 0px auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    background: #100a0a;
+    color: #ff008c;
+    border-bottom: 10px solid #ff008c;
+    border-left: 10px solid #ff008c;
+    border-radius: 30px;
+}
+
+@keyframes cool-border {
+  0% {border-color: #ff008c;}
+  25% {border-color: #91a6ff;}
+  50% {border-color: #d2df00;}
+  75% {border-color: #af3ed4;}
+  100% {border-color: #ff008c;}
+}
+
+div {
+  border-color: #ff008c;
+  animation-name: cool-border;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+}
+
+.links {
+    display: flex;
+}
+
+a:link {
+    color: #d2df00;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #91a6ff;
+    text-decoration: underline;
+    text-decoration-style: none;
+}
+
+a:hover {
+    color: #ff008c;
+    text-decoration: underline;
+    text-decoration-style: wavy;
+}
+
+a:active {
+    color: #91a6ff;
+}
+
+.secret {
+    color: transparent;
+}
